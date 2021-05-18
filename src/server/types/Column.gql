@@ -1,0 +1,8 @@
+type Column {
+  name: String!
+  type: String
+}
+
+type Query {
+  getColumns(model:String!): [Column]
+}
